@@ -8,10 +8,10 @@ def get_requirements() -> list:
         return f.readlines()
 
 
-setup(name=catcher.APPNAME,
-      version=catcher.APPVSN,
+setup(name='catcher',
+      version='1.21.1',
       description='Microservices automated test tool.',
-      author=catcher.APPAUTHOR,
+      author='valerii tikhonov'
       author_email='valerii.tikhonov@gmail.com',
       url='https://github.com/comtihon/catcher',
       packages=find_packages(),
